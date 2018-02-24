@@ -5,7 +5,9 @@ html, body{
 }
 
 header{
-	background-color: #ff3333;
+	background-color: #cc0000;
+	background-image: url(https://img.fireden.net/tg/image/1512/76/1512764383208.png);
+	background-repeat: repeat;
 	padding: 40px;
 	text-align: center;
 
@@ -13,13 +15,16 @@ header{
 h1{
 	font-size: 90px;
 	color: white;
+	text-shadow: 0 4px 20px black;
+	margin: 0;
+	text-transform: uppercase;
 
 }
 
 header img{
 	border-radius: 150px;
 	width:300px;
-	border: 17px solid 	 #000000
+	box-shadow: 0 20px 20px black;
 }
 
 .content{
